@@ -1,0 +1,93 @@
+.home-page-body{
+    background-image: url('/imgs/google-bg.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.home-page-body h1{
+    font-size: 2rem;
+}
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.829);
+
+}
+
+
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.685);
+  width: 100%;
+  height: 100vh;
+  /* opacity: 0.5; */
+}
+.home-apps-box{
+    display: flex;
+    
+}
+.home-apps-box img{
+    width: 30vw;
+    cursor: pointer;
+}
+.home-apps-box img:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+/* .home-main-container{
+    background-color: rgba(240, 248, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.home-apps-box img:hover{
+    transform: scale(1.1);
+
+}
+.vide-bg{
+    position: absolute;
+    height: calc(100vh - 50px);
+    top:0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    
+
+
+    
+}
+.vide-bg video{
+    max-width: 100vw;
+    height: 100vh;
+    filter: brightness(50%);
+} */

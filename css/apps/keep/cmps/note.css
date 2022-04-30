@@ -1,0 +1,50 @@
+.note {
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    margin: 1rem 0;
+    padding: 1rem 1rem 0;
+    font-size: 1.2rem;
+    width: 100%;
+    overflow-wrap: break-word;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.note:hover {
+    box-shadow: 0px 10px 13px -7px #817f7f, 2px 3px 0px 0px #7e7c7c00;
+    transition: box-shadow 0.2s;
+}
+
+.note iframe,
+.note img {
+    width: 100%;
+}
+
+.note iframe {
+    height: 30vh;
+}
+
+.note .note-container {
+    position: relative;
+}
+
+.note .note-preview {
+    margin-bottom: 1rem;
+}
+
+.note .note-edit {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.note .todo:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+.note .todo.completed {
+    text-decoration: line-through;
+}
+
+.note .todo-txt {
+    margin-left: 10px;
+}

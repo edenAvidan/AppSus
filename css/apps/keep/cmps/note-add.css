@@ -1,0 +1,77 @@
+.note-add {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: -1px 2px 10px 0px #2f2f3333;
+}
+
+.note-add .input-container {
+    flex: 1;
+}
+
+.note-add input {
+    border: 0;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.note-add input:focus {
+    outline: none;
+}
+
+.note-add .buttons-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.note-add .buttons-container > * {
+    padding-right: 10px;
+    cursor: pointer; 
+    color: #b9b4b4;
+    font-size: 1.3rem
+}
+
+.note-add .buttons-container .add-note-btn {
+    color: #2cac2c;
+}
+
+.note-add .buttons-container > *:hover,
+.note-add .buttons-container .selected {
+    color: #111113;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .note-add {
+        height: 100px;
+        width: 70%;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .note-add input {
+        padding-right: 20%;
+    }
+
+    .note-add .buttons-container {
+        justify-content: center;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .note-add .buttons-container > * {
+        margin-left: 5%;
+    }
+
+    .note-add .buttons-container .add-note-btn {
+        position: absolute;
+        top: 18px;
+        right: 0;
+    }
+}

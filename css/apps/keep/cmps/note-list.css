@@ -1,0 +1,17 @@
+.note-list {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.note-list ul {
+    list-style: none;
+    padding: 0;
+    columns: 5 350px;
+}
+
+.pinned-note-list > p{
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    color: #757575;
+}
